@@ -1,8 +1,8 @@
 # Учебный проект по автоматизации тестирования (API)
-### Веб сайт <a target="_blank" href="https://www.tinkoff.ru/career/?internal_source=main_tinkoff">Работа в Тинькофф</a>
+### Веб сайт <a target="_blank" href="https://www.tinkoff.ru/career/it/about/">Работа в Тинькофф</a>
 
 <p align="center">
-<img title="Allure Graphics" src="images/screens/sapi-tinkoff-page.png">
+<img title="Работа в Тинькофф" src="images/screens/api-tinkoff-page.png">
 </p>
 
 ## :maple_leaf: Содержание:
