@@ -16,7 +16,4 @@ public interface ApiConfig extends Config {
 
     @Key("api.url.tinkoff")
     String getApiURLTinkoff();
-    @Key("remoteUrl")
-    String getRemoteUrl();
-
 }
