@@ -39,14 +39,9 @@
 ## :maple_leaf: Запуск тестов
 
 ###  Локальный запуск :
-Пример командной строки:
-```bash
-gradle clean test
-```
-Получение отчёта:
-```bash
-gradle allureServe
-```
+1. Запуск с командной строки: gradle clean test
+2. Получение отчёта: gradle allureServe
+
 ###  Удаленный запуск (в Jenkins):
 1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/C16-NazilyaMullagildina_API-tests/">проект</a>
 
