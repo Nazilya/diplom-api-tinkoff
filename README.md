@@ -88,6 +88,16 @@
 <img title="Allure Graphics" src="images/screens/api-allureTO_TK.png">
 </p>
 
+### Настроен запуск из Allure TestOps выборочных тест-кейсов
+<p align="center">
+<img title="Allure Graphics" src="images/screens/api-run2TK.png">
+</p>
+
+### Формируется Launch, происходит автоматический запуск в Jenkins только отмеченных ТК
+<p align="center">
+<img title="Allure Graphics" src="images/screens/api-run2.png">
+</p>
+
 ## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram о результатах прогона тестов
 
 <p align="center">
