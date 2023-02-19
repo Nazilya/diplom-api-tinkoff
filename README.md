@@ -98,6 +98,11 @@
 <img title="Allure Graphics" src="images/screens/api-run2TK.png">
 </p>
 
+## <img src="images/logo/jira-logo.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-542">Atlassian Jira</a>
+<p align="center">
+<img title="Jira" src="images/screens/api-Jira.png">
+</p>
+
 ## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram о результатах прогона тестов
 
 <p align="center">
