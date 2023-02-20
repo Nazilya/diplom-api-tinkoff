@@ -12,6 +12,7 @@
 - Запуск тестов (сборка в Jenkins)
 - Allure-отчет
 - Интеграция с Allure TestOps
+- Интеграция с Atlassian Jira
 - Уведомление в Telegram о результатах прогона тестов
 
 ## :maple_leaf:Технологии и инструменты
@@ -93,7 +94,7 @@
 <img title="Allure Graphics" src="images/screens/api-run2.png">
 </p>
 
-### Формируется Launch, происходит автоматический запуск в Jenkins только отмеченных ТК
+### Формируется Launch, происходит автоматический запуск в Jenkins только отмеченных тест-кейсов
 <p align="center">
 <img title="Allure Graphics" src="images/screens/api-run2TK.png">
 </p>
