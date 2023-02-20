@@ -1,11 +1,10 @@
+<a name="Ссылка"></a>
 ## Учебный проект по автоматизации тестирования (API)
 ### Веб сайт <a target="_blank" href="https://www.tinkoff.ru/career/it/about/">Работа в Тинькофф</a>
 
 <p align="center">
 <img title="Работа в Тинькофф" src="images/screens/api-tinkoff-page.png">
 </p>
-
-<a name="Содержание"></a>
 
 ## :maple_leaf: Содержание:
 
@@ -112,4 +111,4 @@
 <img title="Allure Overview Dashboard" src="images/screens/api-telegramNotif.png" >
 </p>
 
-[Вернуться к оглавлению ⬆](#Содержание)
+[Вернуться к оглавлению ⬆](#Ссылка)
