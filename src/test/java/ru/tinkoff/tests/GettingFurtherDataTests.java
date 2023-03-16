@@ -6,15 +6,21 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import ru.tinkoff.models.AddressRequestModel;
+import ru.tinkoff.models.AddressResponseModel;
+import ru.tinkoff.models.PopularNamesListResponseModel;
+import java.util.List;
 import static io.qameta.allure.Allure.step;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+@Owner("Nazilya")
+@Tag("Api")
 public class GettingFurtherDataTests extends TestBase{
-    @Test
-    @Owner("Nazilya")
-    @Tag("Api")
+    List<PopularNamesListResponseModel.PopularNames> popularNames;
+    List<AddressResponseModel.FullAddress.CityData> cityData;
+
     @Story("FIO")
     @DisplayName("Проверка получения распространенных фамилий по первым буквам")
+    @Test
     void getPopularNamesTest() {
         step("Получить распространенные фамилии по первым буквам: " + testData.getPopularName(), () -> {
             popularNames = steps.getPopularNamesList("Иван", "surname");
@@ -26,11 +32,9 @@ public class GettingFurtherDataTests extends TestBase{
             assertTrue(popularNames.stream().allMatch(x -> (!x.getGender().isEmpty())));
         });
     }
-    @Test
-    @Owner("Nazilya")
-    @Tag("Api")
     @Story("Address")
     @DisplayName("Проверка получения адреса")
+    @Test
     void getAddressTest() {
         step("Получить адреса по первым буквам в названии: '" + testData.getCityForSearch() + "'", () -> {
             AddressRequestModel addressParams = testData

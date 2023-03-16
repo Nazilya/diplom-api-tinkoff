@@ -3,7 +3,6 @@ package ru.tinkoff.models;
 import com.google.gson.annotations.SerializedName;
 import io.qameta.allure.internal.shadowed.jackson.annotation.JsonIgnoreProperties;
 import lombok.Builder;
-
 import java.util.List;
 
 @Builder

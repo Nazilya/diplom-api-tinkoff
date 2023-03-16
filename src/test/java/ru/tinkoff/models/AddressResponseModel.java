@@ -1,11 +1,9 @@
-
 package ru.tinkoff.models;
 
 import com.google.gson.annotations.SerializedName;
 import io.qameta.allure.internal.shadowed.jackson.annotation.JsonIgnoreProperties;
 import io.qameta.allure.internal.shadowed.jackson.annotation.JsonProperty;
 import lombok.Data;
-
 import java.util.List;
 
 @SuppressWarnings("unused")

@@ -1,10 +1,8 @@
-
 package ru.tinkoff.models;
 
 import io.qameta.allure.internal.shadowed.jackson.annotation.JsonIgnoreProperties;
 import io.qameta.allure.internal.shadowed.jackson.annotation.JsonProperty;
 import lombok.Data;
-
 import java.util.List;
 
 @SuppressWarnings("unused")
